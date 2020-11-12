@@ -18,8 +18,9 @@ window.onload = async () => {
     }
 };
 
-const handleSubmit = (pD) => {
-    pD.preventDefault();
+function handleSubmit(event) {
+    console.log("here")
+    event.preventDefault()
     submitProduct();
 };
 
