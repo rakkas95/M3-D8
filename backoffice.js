@@ -41,6 +41,7 @@ const submitProduct = async () => {
                 body: JSON.stringify(productAdded),
                 headers: new Headers({
                     "Content-Type": "application/json",
+                    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmFiZTc1NDRiY2RlMTAwMTc2MTZhYmQiLCJpYXQiOjE2MDUxMDEzOTYsImV4cCI6MTYwNjMxMDk5Nn0.4L61-jzRzehBUMfWi2WMJ8HBnpYAZyKtTPtM7wrzvyk",
                 }),
             });
         } else {
@@ -49,6 +50,7 @@ const submitProduct = async () => {
                 body: JSON.stringify(productAdded),
                 headers: new Headers({
                     "Content-Type": "application/json",
+                    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmFiZTc1NDRiY2RlMTAwMTc2MTZhYmQiLCJpYXQiOjE2MDUxMDEzOTYsImV4cCI6MTYwNjMxMDk5Nn0.4L61-jzRzehBUMfWi2WMJ8HBnpYAZyKtTPtM7wrzvyk",
                 }),
             });
         }

@@ -22,7 +22,7 @@ try {
                     <h5 class="card-title">${pD.name}</h5>
                     <p class="card-text">${pD.description}</span></p>
                     <span>${pD.brand}</span> <span>${pD.price}
-                    <a href="#" class="btn btn-primary">Add to cart</a>
+                    <a  class="btn btn-primary" href="product.html?id=${pD._id}">view product</a>
                 </div>
         </div>` ;
         productItems.appendChild(columnItem) ; 
